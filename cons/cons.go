@@ -3,7 +3,7 @@ package cons
 import "time"
 
 const (
-	Version            = "002-010623-0605p"
+	Version            = "002-122223-1118p"
 	BotName            = "RoleKeeper"
 	DumpName           = "db-dump.json"
 	ClusterPrefix      = "cluster-"
@@ -13,7 +13,7 @@ const (
 	MaxDiscordAttempts = 50
 	NumClusters        = 128
 	MaxGuilds          = 16384 //Preallocated for speed
-	LimitRoles         = 8
+	LimitRoles         = 23
 	LockRest           = time.Millisecond
 
 	/*GMT Thu Sep 01 2022 06:00:00 GMT+0000*/
